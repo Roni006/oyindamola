@@ -1,0 +1,193 @@
+/*
+Tamplete Name:  Oyindamola
+Author Name:  Anik Islam
+Version: 1.0.0
+*/
+
+
+/* CSS VARIABLES */
+:root{
+    --white-color: #FFF;
+    --black-color: #191919;
+    --gray: #828282;
+    --green: #27AE60;
+    --gray-white: #F2F2F2;
+    --deep-black: #212121;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    /* margin-bottom: 500px; */
+}
+/* basic set up */
+
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    max-width: 1275px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER SECTION START */
+.header-section{
+    background-color: var(--black-color);
+}
+.logo h3{
+    color: var(--white-color);
+}
+.logo a{
+    text-decoration: none;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+.nav-menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-menu ul li a{
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 18px 30px;
+    display: inline-block;
+    transition: 0.3s;
+    font-weight: 700;
+}
+.nav-menu ul li a:hover{
+    color: var(--green);
+}
+/* HEADER SECTION END */
+
+
+/* HERO SECTION START */
+.hero-section{
+    background: var(--black-color);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.hero-row{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    justify-content: center;
+}
+.hero-left h2{
+    color: var(--white-color);
+    font-size: 700;
+}
+.hero-left span{
+    color: var(--gray);
+    font-size: 18px;
+}
+.btns{
+    margin-top: 35px;
+}
+.hero-left .bg{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 18px;
+    background-color: var(--green);
+    padding: 12px 27px 12px 27px;
+    margin-right: 10px;
+}
+.hero-left .trans{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 18px;
+    padding: 12px 27px 12px 27px;
+    border: 1px solid var(--gray-white);
+}
+.hero-right img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+/* HERO SECTION END */
+
+
+/* .ABOUT SECTION START */
+.about-section{
+    background-color: var(--black-color);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.about-content h2{
+    color: var(--white-color);
+    font-size: 700;
+    text-align: center;
+}
+.about-content p{
+    color: var(--white-color);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+}
+.about-blocks{
+    margin-top: 65px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    /* border: 1px solid var(--gray); */
+}
+.about-blocks span{
+    background-color: var(--deep-black);
+    height: 62px;
+    width: 62px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.about-blocks h4{
+    color: var(--white-color);
+    font-size: 700;
+}
+.about-blocks p{
+    font-size: 18px;
+    color: var(--white-color);
+    margin-top: 5px;
+}
+/* .ABOUT SECTION END */
