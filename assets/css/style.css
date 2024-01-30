@@ -13,6 +13,7 @@ Version: 1.0.0
     --green: #27AE60;
     --gray-white: #F2F2F2;
     --deep-black: #212121;
+    --light-black: #535353;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
-    /* margin-bottom: 500px; */
+    margin-bottom: 500px;
 }
 /* basic set up */
 
@@ -191,3 +192,35 @@ ul{
     margin-top: 5px;
 }
 /* .ABOUT SECTION END */
+
+
+/* WID SECTION START */
+.wid-section{
+    background-color: var(--black-color);
+    padding: 120px 0 120px 0;
+}
+.wid-category{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.wid-content h2{
+    font-weight: bold;
+    color: var(--white-color);
+    text-align: center;
+}
+.wid-blocks h3{
+    color: var(--light-black);
+    font-weight: 500;
+    margin-top: 30px;
+}
+.wid-blocks{
+    background-color: var(--deep-black);
+    width: 350px;
+    padding: 35px 70px 35px 50px;
+}
+#bbottom{
+    border-bottom: 3px solid var(--green)
+}
+/* WID SECTION END */
