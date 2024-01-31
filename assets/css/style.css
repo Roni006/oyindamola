@@ -14,6 +14,7 @@ Version: 1.0.0
     --gray-white: #F2F2F2;
     --deep-black: #212121;
     --light-black: #535353;
+    --light-black-2: #4F4F4F;
 }
 
 body{
@@ -51,6 +52,9 @@ h1,h2,h3,h4,h5,h6{
 
 .container{
     max-width: 1275px;
+    margin: 0 auto;
+}
+.skill{
     margin: 0 auto;
 }
 img{
@@ -224,3 +228,41 @@ ul{
     border-bottom: 3px solid var(--green)
 }
 /* WID SECTION END */
+
+
+/* MY-SKILL SECTION START  */
+.my-skill{
+    background-color: var(--black-color);
+    padding: 120px 0 120px 0;
+}
+.my-skill-content h2{
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.skill-block{
+    width: 1168px;
+    justify-content: center;
+    background-color: var(--deep-black);
+    padding: 59px 124px 57px 125px;
+    border: 1px solid var(--gray);
+    & h4{
+        font-size: 24px;
+        color: #27AE60;
+    }
+    & h1{
+        color: var(--light-black-2);
+    }
+    
+    
+}
+.skill h4{
+    text-align: center;
+}
+.skill-block-1{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+/* MY-SKILL SECTION END */
